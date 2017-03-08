@@ -39,7 +39,7 @@ for line in file:
     for word in words:
         word_count += 1
         average += len(word)
-average //= word_count
+average /= word_count
 
 print("There are", word_count, "words in Alice in Wonderland")
 print("The average word length is:", average)
